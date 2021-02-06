@@ -29,7 +29,7 @@ public class Client {
             Registry registry = LocateRegistry.getRegistry(serverAdress, 18500);
             RemoteInterface remote = (RemoteInterface) registry.lookup("remote");
             System.out.println("Connection OK to " + serverAdress);
-            String msg = remote.HeloWorld();
+            String msg = remote.HelloWorld();
             System.out.println(msg);
         } catch (RemoteException | NotBoundException ex) {
             Logger.getLogger(Client.class.getName()).log(Level.SEVERE, null, ex);

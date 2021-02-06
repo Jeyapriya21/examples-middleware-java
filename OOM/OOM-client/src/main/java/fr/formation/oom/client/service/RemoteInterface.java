@@ -13,5 +13,5 @@ import java.rmi.RemoteException;
  * @author ryank
  */
 public interface RemoteInterface extends Remote{
-      public String HeloWorld() throws RemoteException;
+      public String HelloWorld() throws RemoteException;
 }
