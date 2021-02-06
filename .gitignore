@@ -1,2 +1,4 @@
 /OOM/OOM-client/target
 /OOM/OOM-server/target
+/JMS/JMS-consumer/target
+/JMS/JMS-producer/target
