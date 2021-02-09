@@ -25,8 +25,7 @@ public class Server {
        
         try {
             Registry registry = LocateRegistry.createRegistry(18500);
-            RemoteImpl remote ;
-            remote = new RemoteImpl();
+            RemoteImpl remote = new RemoteImpl();
             String rebindName= "remote";
             registry.rebind(rebindName, remote);
             System.out.println("Object Remote is Done !");

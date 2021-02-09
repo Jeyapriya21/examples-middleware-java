@@ -22,7 +22,7 @@ public class RemoteImpl extends UnicastRemoteObject implements RemoteInterface {
     protected final Logger log = LoggerFactory.getLogger(getClass());
     
     @Override
-    public String HeloWorld() throws RemoteException {
+    public String HelloWorld() throws RemoteException {
         return "Babidi";
     }
 

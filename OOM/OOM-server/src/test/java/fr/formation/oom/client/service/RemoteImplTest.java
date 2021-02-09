@@ -47,7 +47,7 @@ public class RemoteImplTest {
         System.out.println("HeloWorld");
         RemoteImpl instance = new RemoteImpl();
         String expResult = "";
-        String result = instance.HeloWorld();
+        String result = instance.HelloWorld();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
